@@ -1,0 +1,166 @@
+h1>a,
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 1000px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0;
+}
+
+.item1 {
+    flex: 2;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.item2 {
+    flex: 1;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+}
+
+.itemmenu {
+    background-color: rgb(255, 255, 255);
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    flex: 1;
+    background-color: rgb(119, 119, 119);
+}
+
+.artigo {
+    flex: 1;
+    background-color: rgb(64, 64, 64);
+    display: flex;
+}
+
+.itemmenu2 {
+    flex: 1;
+    background-color: rgb(50, 50, 50);
+}
+
+.artigo1 {
+    flex: 1;
+    background-color: rgb(68, 68, 68);
+}
+
+.artigo2 {
+    flex: 1;
+    background-color: rgb(80, 80, 80);
+}
+
+.container2 {
+    box-sizing: border-box;
+    display: flex;
+    background-color: aliceblue;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.linha {
+    flex-direction: column;
+    display: flex;
+    height: 800px;
+    width: 100px;
+}
+
+.x1 {
+    background-color: rgb(42, 42, 42);
+    flex: 1;
+}
+
+.x2 {
+    background-color: rgb(205, 205, 205);
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(196, 196, 196);
+    height: 150px;
+    width: 300;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.pagina {
+    background-color: rgb(70, 70, 70);
+    height: 50px;
+    width: 80px;
+    margin-inline: 100px;
+    border-radius: 6px;
+    box-shadow: 6px 6px 5px;
+}
+
+.pagina a>h1 {
+    margin-top: 7px;
+}
+
+.container3 {
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 1000px;
+    flex-direction: row;
+    margin: auto;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.box1 {
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    flex: 1;
+}
+
+.box2 {
+    background-color: rgb(255, 0, 0);
+    height: 30vh;
+    flex: 1;
+}
+
+.box3 {
+    background-color: rgb(0, 0, 0);
+    height: 15vh;
+    flex: 1;
+}
+
+.box4 {
+    background-color: rgb(255, 0, 0);
+    height: 35vh;
+    flex: 1;
+}
+
+.box5 {
+    background-color: rgb(0, 0, 0);
+    height: 50vh;
+    flex: 1;
+}
+
+.box6 {
+    background-color: rgb(255, 0, 0);
+    height: 20vh;
+    flex: 1;
+}
